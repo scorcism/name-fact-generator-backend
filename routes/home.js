@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
     },
     {
         How_to_use_v1 : `Send a POST req to the url../api/v1/fact with body content in application/JSON format as {"name": "Abhishek", "gender":"m"} `,
-        v2: `Send a GET request with name and gender at: ../api/v2/fact/?name=Abhishek&gender=S `
+        v2: `Send a GET request with name and gender at: ../api/v2/fact/?name=Abhishek&gender=M`
     }
     ]
     res.json(line)
